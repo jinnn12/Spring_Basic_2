@@ -1,0 +1,4 @@
+# Spring은 실행 시 무조건 application.yml을 찾음 (active: local, active: prod 등)
+spring:
+  profiles:
+    active: prod
